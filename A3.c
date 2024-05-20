@@ -48,8 +48,10 @@ void asm_func(char* arr)
 
 int main() {
     char v_as;
-    char arr[4] = "9934";
+    char arr[4];
     short int str_size = sizeof(arr);
+
+    scanf("%4s", arr); 
 
     for(int i = 0; i < str_size; i++)
     {
