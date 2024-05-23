@@ -97,4 +97,6 @@ int main() {
 
     for(char i = 0; i < amount_of_pairs*2; i++)
         printf("%x\n", arrB[i]);
+
+    printf("Amount of pairs: %d\n", amount_of_pairs);
 }
